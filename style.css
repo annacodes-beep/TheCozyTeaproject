@@ -1,0 +1,155 @@
+html, body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+a {
+    color: seashell;
+}
+a:hover {
+    color: darkgrey;
+}
+
+/* header and nav bar */
+#header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid seashell;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-content: flex-end;
+    max-height: 69px;
+    z-index: 1;
+}
+
+#logo {
+    height: 50px;
+    margin: 10px;
+}
+
+.nav-item {
+    display: inline-flex;
+    text-decoration: underline;
+    align-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    margin: auto 25px;   
+}
+
+/* Mission section */
+
+.mission-container {
+    height: 700px;
+    width: 1200px;
+    background-image: url(Resources/Images/img-mission-background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+#headings {
+    background-color: black;
+    width: 1200px;
+    height: 110px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission-heading {
+    height: 10px;
+}
+
+/* Featured Tea Section */
+
+.featured-heading {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+#featured-headings {
+    height: 10px;
+}
+
+.featured-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#photo {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    
+}
+
+#photo-item {
+    margin: auto; /*centers photos*/
+    
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Location Section */
+
+#location-container {
+    background-image: url(Resources/Images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#location-heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin-bottom: -30px;
+}
+
+#location-box {
+    background-color: black;
+    height: 290px;
+    width: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 40px 50px 50px;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+}
+
+/* Contact Section */
+
+.contact-box {
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
